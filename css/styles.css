@@ -105,8 +105,8 @@ h1, h2, h3, h4, h5, h6, p {
     color: #404bbf;
 }
 
-.footer-container {
-    padding: 100px 0 100px;
+.page-footer {
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -141,14 +141,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section-one {
     background-color: #2e2f42;
-}
-
-.business-container {
     padding: 188px 0;
-    max-width: 496px;
 }
 
 .business {
+    max-width: 496px;
+    margin: auto; 
     margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
@@ -192,9 +190,8 @@ h1, h2, h3, h4, h5, h6, p {
     overflow: hidden;
 }
 
-.feature-container {
+.section-two {
     padding: 120px 0;
-    gap: 24px;
 }
 
 .feature-list {
@@ -205,6 +202,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .about-feature {
     margin-bottom: 8px;
+    width: calc((100%-72px)/4);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -222,9 +220,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section-three {
     background-color: #f4f4fd;
-}
-
-.team-container {
     padding: 120px 0;
 }
 
@@ -233,10 +228,6 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 24px;
 }
 
-.about-container {
-    width:calc ((100%-72px)/4);
-    
-}
 
 .job-name {
     padding: 32px 0;
@@ -245,6 +236,7 @@ h1, h2, h3, h4, h5, h6, p {
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100%-72px)/4);
 }
 
 .team {
@@ -276,8 +268,12 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
 }
 
-.container-portfolio {
+.section-four {
     padding: 120px 0;
+}
+
+.container-item {
+    width:calc((100%-48px)/3);
 }
 
 .container-service {
