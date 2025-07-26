@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 120px 0;
 }
 
-.feature-list {
+.container-feature {
     display: flex;
     align-items: center;
     gap: 24px;
@@ -202,7 +202,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .about-feature {
     margin-bottom: 8px;
-    width: calc((100%-72px)/4);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -237,6 +236,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: calc((100%-72px)/4);
+    display: block;
 }
 
 .team {
@@ -274,6 +274,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .container-item {
     width:calc((100%-48px)/3);
+    display: block;
 }
 
 .container-service {
@@ -288,10 +289,6 @@ h1, h2, h3, h4, h5, h6, p {
     column-gap: 24px;
     row-gap: 48px;
     align-items: left;
-}
-
-.photo-container {
-    width: calc((100%-48px)/3);
 }
 
 .portfolio {
